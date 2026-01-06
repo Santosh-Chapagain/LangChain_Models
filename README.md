@@ -48,20 +48,6 @@ Multiple implementations with different providers:
 - Document similarity comparison
 - Vector-based semantic search capabilities
 
-### 4. **Prompt Engineering**
-- **Streamlit Web Application** for research paper explanations
-- Dynamic prompt templates with customizable styles:
-  - Beginner-Friendly
-  - Technical
-  - Code-Oriented
-  - Mathematical
-- Adjustable explanation lengths (Short, Medium, Long)
-- Supports multiple research papers:
-  - "Attention Is All You Need"
-  - "BERT: Pre-training of Deep Bidirectional Transformers"
-  - "GPT-3: Language Models are Few-Shot Learners"
-  - "Diffusion Models Beat GANs on Image Synthesis"
-
 ## 📦 Installation
 
 ### Prerequisites
@@ -114,7 +100,7 @@ Multiple implementations with different providers:
 - **openai** - OpenAI client library
 - **google-generativeai** - Google Generative AI client
 - **python-dotenv** - Environment variable management
-- **streamlit** - Web application framework
+  
 
 ## 🎯 Usage Examples
 
@@ -129,13 +115,7 @@ Interactive CLI for asking questions to GPT-3.5 Turbo.
 python 2.ChatModels/1_Chatmodel_openAI.py
 ```
 
-### 3. Running the Streamlit Research Tool
-```bash
-streamlit run Prompts/prompts.py
-```
-Access the web interface at `http://localhost:8501`
-
-### 4. Working with Embeddings
+### 3. Working with Embeddings
 ```bash
 python 3.EmbeeddedModels/1_Embedding_HF_query.py
 python 3.EmbeeddedModels/2_document_similarity.py
@@ -168,7 +148,6 @@ All configurations are managed through:
 | `5_chatmodel_hf_local.py` | Local Hugging Face models |
 | `1_Embedding_HF_query.py` | Text embedding generation |
 | `2_document_similarity.py` | Semantic document comparison |
-| `prompts.py` | Streamlit research tool |
 
 ## 🚀 Running Tests
 
