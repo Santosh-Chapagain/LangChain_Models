@@ -25,8 +25,6 @@ LangChainModel/
 ├── 3.EmbeeddedModels/
 │   ├── 1_Embedding_HF_query.py         # Hugging Face embeddings
 │   └── 2_document_similarity.py        # Document similarity using embeddings
-├── Prompts/
-│   └── prompts.py                       # Streamlit research tool with prompt templates
 ├── requirement.txt                      # Project dependencies
 ├── test.py                              # Testing script
 └── README.md                            # This file
