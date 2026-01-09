@@ -1,0 +1,19 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "length_instructions",
+        "paper_input",
+        "style_input",
+        "style_instructions"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        You are an AI research assistant specialized in explaining complex machine learning papers.\n\n        RESEARCH PAPER: {paper_input}\n        EXPLANATION STYLE: {style_input}\n        EXPLANATION LENGTH: {length_input}\n\n        Please provide an explanation of the research paper following these guidelines:\n\n        STYLE ADJUSTMENTS:\n        {style_instructions}\n\n        LENGTH REQUIREMENTS:\n        {length_instructions}\n\n        EXPLANATION STRUCTURE:\n        1. **Core Idea**: What is the main innovation/contribution?\n        2. **Key Components**: Break down the methodology/architecture\n        3. **Why It Matters**: Impact on the field and practical applications\n        4. **Limitations**: What are the shortcomings or areas for improvement?\n\n        IMPORTANT:\n        - Use clear, structured formatting with headings\n        - Include equations if style is 'Technical' or 'Mathematical'\n        - Mention authors and publication year\n        - Compare with previous approaches when relevant\n        - Adjust technical depth based on selected style\n\n        Begin your explanation now:\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
